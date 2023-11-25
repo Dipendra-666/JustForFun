@@ -1,0 +1,55 @@
+$brand: #055999;
+$w:#fff;
+
+.box
+{
+    background: $brand !important;
+    color:$w !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color:$brand;
+    text-transform: uppercase;
+    padding: 14px;
+    &:hover
+    {
+        @extend .box;
+    }
+}
+
+.carousel-caption
+{
+    bottom: 6rem;
+}
+
+.sbox
+{
+    background: #efefef;
+    border: 2px solid #efefef;
+    padding: 20px;
+    i
+    {
+        font-size: 66px;
+    }
+    &:hover
+    {
+        background: $w;
+        border: 2px solid $brand;
+    }
+}
+
+.btn-primary
+{
+    @extend .box;
+    border-radius: 0px;
+}
+.team
+{
+    @extend .box;
+}
+footer
+{
+    background: black;
+    color:$w;
+}

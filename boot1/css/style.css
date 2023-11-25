@@ -1,0 +1,35 @@
+.box, .team, .btn-primary, .navbar-expand-lg .navbar-nav .nav-link:hover {
+  background: #055999 !important;
+  color: #fff !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #055999;
+  text-transform: uppercase;
+  padding: 14px;
+}
+.carousel-caption {
+  bottom: 6rem;
+}
+
+.sbox {
+  background: #efefef;
+  border: 2px solid #efefef;
+  padding: 20px;
+}
+.sbox i {
+  font-size: 66px;
+}
+.sbox:hover {
+  background: #fff;
+  border: 2px solid #055999;
+}
+
+.btn-primary {
+  border-radius: 0px;
+}
+
+footer {
+  background: black;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
